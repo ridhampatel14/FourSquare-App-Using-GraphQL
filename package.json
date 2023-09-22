@@ -1,0 +1,22 @@
+{
+  "name": "lab-5",
+  "version": "1.0.0",
+  "description": "this is graphql LAB",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "seed": "node test.js"
+  },
+  "author": "Ridham Patel",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^3.12.0",
+    "axios": "^1.3.5",
+    "graphql": "^16.6.0",
+    "loadsh": "^0.0.4",
+    "redis": "^4.6.5",
+    "uuid": "^9.0.0"
+  }
+}
